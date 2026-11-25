@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="t">
+  <title id="t">Plan schématique d'accès au cabinet du Dr Martin</title>
+  <rect width="600" height="400" fill="#eef2f5"/>
+  <!-- Rues -->
+  <g stroke="#ffffff" stroke-linecap="round">
+    <line x1="0" y1="210" x2="600" y2="190" stroke-width="22"/>
+    <line x1="300" y1="0" x2="320" y2="400" stroke-width="16"/>
+    <line x1="80" y1="0" x2="140" y2="400" stroke-width="10"/>
+    <line x1="470" y1="0" x2="500" y2="400" stroke-width="10"/>
+    <line x1="0" y1="80" x2="600" y2="60" stroke-width="10"/>
+    <line x1="0" y1="330" x2="600" y2="320" stroke-width="10"/>
+  </g>
+  <!-- Voie ferrée RER E -->
+  <line x1="0" y1="20" x2="600" y2="10" stroke="#8a96a3" stroke-width="4" stroke-dasharray="14 8"/>
+  <rect x="200" y="0" width="90" height="30" rx="4" fill="#5a6b7c"/>
+  <text x="245" y="20" font-family="Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle">Gare RER E</text>
+  <!-- Noms de rues -->
+  <text x="30" y="194" font-family="Arial, sans-serif" font-size="14" fill="#5a6b7c">Avenue de l'Exemple</text>
+  <!-- Cabinet -->
+  <circle cx="390" cy="198" r="14" fill="#1f4e79" stroke="#fff" stroke-width="4"/>
+  <rect x="340" y="222" width="100" height="26" rx="4" fill="#1f4e79"/>
+  <text x="390" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Cabinet</text>
+  <!-- Nord -->
+  <g transform="translate(560 360)" font-family="Arial, sans-serif" font-size="12" fill="#5a6b7c" text-anchor="middle">
+    <path d="M0 -22 L7 0 L0 -5 L-7 0 Z" fill="#5a6b7c"/>
+    <text y="16">N</text>
+  </g>
+  <text x="10" y="392" font-family="Arial, sans-serif" font-size="11" fill="#5a6b7c">Plan schématique, non à l'échelle</text>
+</svg>
