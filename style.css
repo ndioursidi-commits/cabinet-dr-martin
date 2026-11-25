@@ -100,3 +100,10 @@ address { font-style: normal; margin-bottom: 12px; }
   .access-grid { grid-template-columns: 1fr; }
   .hero h1 { font-size: 1.6rem; }
 }
+
+/* ===== Bandeau "site de démonstration" ===== */
+.demo-banner {
+  background: #fff4d6; color: #5c4400; border-bottom: 1px solid #e8d49a;
+  text-align: center; font-size: .9rem; font-weight: 600;
+  padding: 8px max(16px, env(safe-area-inset-right, 0px)) 8px max(16px, env(safe-area-inset-left, 0px));
+}
